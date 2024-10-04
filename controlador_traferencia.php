@@ -35,7 +35,9 @@
       $query = "UPDATE cuentas SET saldo = saldo + '$cantidad' WHERE id_cuenta = '$id_cuentadestino'";
       $conn->query($query);
 
-      return true;
+      
+      header(header: "Location: index.html ");
+      exit();
     } else {
       return false;
     }

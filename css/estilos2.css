@@ -1,0 +1,82 @@
+/* Estilos generales */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Contenedor principal */
+
+.contenedor {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Información del usuario y cuenta */
+
+.informacion-usuario, .informacion-cuenta {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-usuario p, .informacion-cuenta p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Enlace para realizar transferencia */
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+a:active {
+  color: #337ab7;
+}
+
+/* Botón de transferencia */
+
+.transferencia {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transferencia:hover {
+  background-color: #3e8e41;
+}
