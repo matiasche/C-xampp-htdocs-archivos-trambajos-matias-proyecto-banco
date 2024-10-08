@@ -5,15 +5,15 @@
   $username = "root";
   $password = "";
 
-  // Create a new mysqli object
+
   $conn = new mysqli($localhost, $username, $password, $banco);
 
-  // Verificar conexión
+  // verificameos la aconecion 
   if ($conn->connect_error) {
     die("Error de conexión: " . $conn->connect_error);
   }
 
-  // Función para realizar transferencia
+  // esta funcion se encargara de ralizar traferencias
   function realizarTransferencia($id_remitente, $id_cuentadestino, $cantidad) {
     global $conn;
 
@@ -22,6 +22,8 @@
     $result = $conn->query($query);
     $saldo_remitente = $result->fetch_assoc()['saldo'];
 
+
+    //parte de la traferencia //
     if ($saldo_remitente >= $cantidad) {
       // Realizar transferencia
       $query = "INSERT INTO transferencias (cantidad, id_remitente, id_cuentadestino) VALUES ('$cantidad', '$id_remitente', '$id_cuentadestino')";
@@ -43,7 +45,7 @@
     }
   }
 
-  // Procesar formulario
+  // prosesamos el formulario
   if (isset($_POST['submit'])) {
     $id_remitente = $_POST['id_remitente'];
     $id_cuentadestino = $_POST['id_cuentadestino'];
