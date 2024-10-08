@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Contenedor principal */
+
 
 .contenedor {
   max-width: 800px;
@@ -22,7 +22,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Título principal */
+
 
 h2 {
   text-align: center;
@@ -32,7 +32,7 @@ h2 {
   color: #333;
 }
 
-/* Información del usuario y cuenta */
+
 
 .informacion-usuario, .informacion-cuenta {
   margin-bottom: 20px;
@@ -49,7 +49,7 @@ h2 {
   color: #666;
 }
 
-/* Enlace para realizar transferencia */
+
 
 a {
   text-decoration: none;
@@ -66,7 +66,7 @@ a:active {
   color: #337ab7;
 }
 
-/* Botón de transferencia */
+
 
 .transferencia {
   background-color: #4CAF50;

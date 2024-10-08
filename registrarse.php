@@ -16,11 +16,11 @@
       </div>
       <form action="controlador_registro.php" method="post">
         <div class="input">
-          <label for="username">Username:</label>
+          <label for="username">Nombre de usuario </label>
           <input type="text" id="username" name="username" required>
         </div>
         <div class="input">
-          <label for="password">Password:</label>
+          <label for="password">contraseña:</label>
           <input type="password" id="password" name="password" required>
         </div>
         <div class="input">

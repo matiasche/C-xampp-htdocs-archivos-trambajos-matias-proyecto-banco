@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header and Navigation */
+
 header {
     background-color: #007bff;
     padding: 15px 0;
@@ -40,7 +40,7 @@ header nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Main Banner Section */
+
 .banner-principal {
     background: linear-gradient(135deg, #00bfa5, #008080);
     color: white;
@@ -73,7 +73,7 @@ header nav ul li a:hover {
     background-color: #ff9900;
 }
 
-/* Services Section */
+
 .conoce-mas {
     padding: 50px 20px;
     text-align: center;
@@ -117,14 +117,14 @@ header nav ul li a:hover {
     font-size: 1em;
 }
 
-/* Icons for each service */
+
 .tarjeta i {
     font-size: 2.5em;
     color: #007bff;
     margin-bottom: 15px;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: #fff;

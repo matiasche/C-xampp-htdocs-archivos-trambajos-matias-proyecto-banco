@@ -20,15 +20,15 @@ $username = "";
 $email = "";
 $saldo = "";
 
-// Obtener la información del usuario usando la sesión de correo
+// obtenemos  la información del usuario usando la sesión de correo
 $email_session = $_SESSION['email'];
 $query = "SELECT * FROM usuarios WHERE email = '$email_session'";
 $result = $conn->query($query);
 
-// Verificar si se obtuvo información del usuario
+// usamos el if para verificar si se optiene la informacion del usuario 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
-    $username = $row['nombre']; // Cambiado a 'nombre' ya que no hay 'username' en tu estructura
+    $username = $row['nombre']; 
     $email = $row['email'];
 
     // Obtener la información de la cuenta asociada al usuario
