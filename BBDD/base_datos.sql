@@ -1,7 +1,6 @@
 
 CREATE DATABASE banco;
 
-USE banco;
 
 CREATE TABLE usuarios (
   id_usuario INT(11) NOT NULL AUTO_INCREMENT,
